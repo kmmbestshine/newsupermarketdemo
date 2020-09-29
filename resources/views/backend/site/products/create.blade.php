@@ -105,18 +105,7 @@
                                 <input type="file" name="images[]" id="images" class="form-control" multiple>
                                 <small class="text-warning">You can use ctr (cmd) to select multiple images</small>
                             </div>
-                            <div class="form-group has-feedback">
-                                <label for="intro_video_embed_code">Introduction Video Embed Code<span class="text-danger">*</span> </label>
-                                <input  type="text" class="form-control" name="intro_video_embed_code"  placeholder="codes"  required>
-                                <span class="glyphicon glyphicon-info form-control-feedback"></span>
-                                <span class="text-danger">{{ $errors->first('intro_video_embed_code') }}</span>
-                            </div>
-                            <div class="form-group has-feedback">
-                                <label for="video_site_link">More Video Site Link</label>
-                                <input  type="url" class="form-control" name="video_site_link"  placeholder="url"  minlength="8" maxlength="500">
-                                <span class="glyphicon glyphicon-info form-control-feedback"></span>
-                                <span class="text-danger">{{ $errors->first('video_site_link') }}</span>
-                            </div>
+                            
                             <i class="fa fa-link"></i>
 
                               <div class="form-group string optional profile_website">
