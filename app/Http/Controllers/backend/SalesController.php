@@ -22,7 +22,7 @@ class SalesController extends Controller
 
         $salescart = Salescart::all();
         //dd('jjjjjjjjjj',$salescart);
-        return view('backend.sales.create', compact('sales', 'salescart'));
+        return view('backend.sales.create', compact( 'salescart'));
     }
 
     public function store(Request $request)
