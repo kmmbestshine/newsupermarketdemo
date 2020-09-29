@@ -16,7 +16,7 @@ class AddCustomerNameToSalescartsTable extends Migration
         Schema::table('salescarts', function (Blueprint $table) {
             $table->string('customerName')->nullable();
             $table->string('phone_no')->nullable();
-            $table->string('address')->nullable();
+            
         });
     }
 
